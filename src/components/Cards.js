@@ -1,10 +1,13 @@
 const Cards= () => {
   return (
-    <section className="bg-gray-500 py-12 px-44 ">
+    <section className=" py-12  ">
+       <h2 className="text-4xl font-semibold text-gray-800 pb-10 ">Our Approach</h2>
       <div className="container mx-auto flex justify-center">
+        
         <div className="flex space-x-4"> 
+        
           {/* First Card */}
-          <div className="bg-white rounded-lg shadow-lg p-4 ">
+          <div className="bg-white hover:bg-gray-200 rounded-lg shadow-lg p-4 ">
             <div className="flex items-center mb-4">
              
               <h3 className="text-xl font-semibold text-center">Fuse Hubs</h3>
@@ -18,7 +21,7 @@ const Cards= () => {
           </div>
 
           {/* Second Card */}
-          <div className="bg-black rounded-lg shadow-lg p-4">
+          <div className="bg-white hover:bg-gray-200  rounded-lg shadow-lg p-4">
             <div className="flex items-center mb-4">
               
               <h3 className="text-xl font-semibold">Leverage Technology</h3>
@@ -32,7 +35,7 @@ const Cards= () => {
           </div>
 
           {/* Third Card */}
-          <div className="bg-white rounded-lg shadow-lg p-4">
+          <div className="bg-white hover:bg-gray-200  rounded-lg shadow-lg p-4">
             <div className="flex items-center mb-4">
             
               <h3 className="text-xl font-semibold">AI Solutions</h3>
