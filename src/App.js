@@ -6,6 +6,7 @@ import  Main from './components/Main'
 import  Slider from './components/Swiper'
 import TestimonialsSlider from './components/Testimonial'
 
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       
       <TestimonialsSlider/>
       
-      
+      <Footer />
 
     
     </div>
