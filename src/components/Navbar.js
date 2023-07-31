@@ -28,9 +28,9 @@ import React, { useEffect, useRef } from 'react';
 
   return (
     <div className ='shadow-md w-full fixed top-0 left-0'>
-        <div className ='md:flex items-center justify-between text-black bg-green-100  py-2 md:px-10 px-7'>
+        <div className ='md:flex items-center justify-between text-gray-300 bg-slate-500 py-2 md:px-10 px-7'>
         <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
-         text-gray-800'>
+         text-white'>
             Company Logo
             </div>
 
@@ -44,7 +44,7 @@ import React, { useEffect, useRef } from 'react';
                 }
                   <button
                   ref={buttonRef}
-                  className="rounded-full bg-green-300 hover:bg-blue-600 transition-transform transform hover:translate-y-1 focus:outline-none px-6 py-2 rounded-full focus:outline-none transition-all"  >
+                  className="rounded-full text-black bg-green-300 hover:bg-blue-600 transition-transform transform hover:translate-y-1 focus:outline-none px-6 py-2 rounded-full focus:outline-none transition-all"  >
                         Contact Us
                    </button>
             </ul>
